@@ -31,7 +31,7 @@ blockquote {
 
 @media (min-width: 481px) {
   body {
-    padding: 30px 60px;
+    padding: 10px 10px;
   }
   .navigation {
     list-style: none;
@@ -42,6 +42,6 @@ blockquote {
   }
   .navigation li:not(:first-child):before {
     content: "| ";
-    margin: 0 5px;
+    margin: 0 ßpx;
   }
 }
