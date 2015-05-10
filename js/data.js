@@ -7,7 +7,7 @@ define([], function () {
     return {
     	// data goes here
     	videos: {
-			"video1": videoBase + 'video1.mpg',
+			"video1": videoBase + 'demo.mp4',
 			"video2": videoBase + 'video2.mp4', 
 			"etc": videoBase + 'pp.avi', 
 

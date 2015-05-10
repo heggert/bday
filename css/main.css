@@ -1,14 +1,4 @@
 @charset "UTF-8";
-/*
- * jQuery Image Gallery Demo CSS 3.0.0
- * https://github.com/blueimp/jQuery-Image-Gallery
- *
- * Copyright 2013, Sebastian Tschan
- * https://blueimp.net
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- */
 
 body {
   margin: 0;
@@ -55,10 +45,3 @@ blockquote {
     margin: 0 5px;
   }
 }
-
-.vjs-default-skin { color: #1c86c5; }
-.vjs-default-skin .vjs-play-progress,
-.vjs-default-skin .vjs-volume-level { background-color: #0075b5 }
-.vjs-default-skin .vjs-control-bar,
-.vjs-default-skin .vjs-big-play-button { background: rgba(0,0,0,0.7) }
-.vjs-default-skin .vjs-slider { background: rgba(0,0,0,0.2333333333333333) }
