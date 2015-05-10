@@ -6,22 +6,13 @@
         <meta name="author" content="Daniel">
 		<link rel="stylesheet" href="css/demo.css">
 		<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
-		<script src="js/video.js"></script>
-		
-		<!--<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/south-street/jquery-ui.css" id="theme">-->
-		<!--<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">-->
-
-        <!-- should be at the beginning-->
+		<script type="text/javascript" src="html5lightbox/jquery.js"></script>
+		<script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
         <script type="text/javascript" src="js/vendor/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="js/vendor/require.js"></script>
-        <!-- BEGIN-->
-
-        <!-- include plugins, modules etc-->
     </head>
+	
     <body>
-
-        <!-- should be at the end-->
-		
 		<div id="links">
 			<a href="images/banana.jpg" title="Banana" data-dialog>
 				<img src="images/thumbnails/banana.jpg" alt="Banana">
@@ -33,13 +24,11 @@
 				<img src="images/thumbnails/orange.png" alt="Orange">
 			</a>
 		</div>
-		
-		<video id="MY_VIDEO_1" class="video-js vjs-default-skin" controls
-			 preload="auto" width="640" height="480" poster="MY_VIDEO_POSTER.jpg"
-			 data-setup="{}">
-			 <source src="videos/demo.mp4" type='video/mp4'>
-		</video>
-		
+
+		<a href="videos/demo.mp4" class="html5lightbox" data-width="1280" data-height="640"><img src="images/thumbnails/demo.jpg" alt="Orange"></a>
+
+		<script src="html5lightbox/jquery.js"></script>
+		<script src="html5lightbox/html5lightbox.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
 		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
